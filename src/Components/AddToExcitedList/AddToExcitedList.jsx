@@ -18,7 +18,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import axios from "axios";
-import { PROD_server } from "../..";
+import { PROD_server, DEV_server } from "../../index";
 
 const AddToWaitingList = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -34,7 +34,7 @@ const AddToWaitingList = () => {
       setLoading(true);
       setMessage("");
       await axios.post(
-        `${PROD_server}/excited`,
+        `${DEV_server}/excited`,
         { name, email, message },
         {
           headers: {
