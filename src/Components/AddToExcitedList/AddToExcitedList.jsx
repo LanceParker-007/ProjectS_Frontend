@@ -91,7 +91,9 @@ const AddToWaitingList = () => {
             display={"flex"}
             justifyContent={"center"}
           >
-            <Heading fontFamily={"cursive"}>Excited 😁</Heading>
+            <Tooltip label={"I am also excited"} placement={"top-end"} hasArrow>
+              <Heading fontFamily={"body"}>Excited 😁</Heading>
+            </Tooltip>
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody
