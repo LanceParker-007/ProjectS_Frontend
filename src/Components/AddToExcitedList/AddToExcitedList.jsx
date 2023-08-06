@@ -34,7 +34,7 @@ const AddToWaitingList = () => {
       setLoading(true);
       setMessage("");
       await axios.post(
-        `${DEV_server}/excited`,
+        `${PROD_server}/excited`,
         { name, email, message },
         {
           headers: {
