@@ -1,0 +1,97 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.landingPageBody {
+  background-color: rgb(40, 40, 40);
+  height: 70vh;
+  width: 100%;
+  box-sizing: border-box;
+  //
+  background-image: url("https://wallpaperaccess.com/full/5680057.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d2dfe0;
+  background-blend-mode: multiply;
+  //
+}
+
+.landingPageSection1 {
+  display: flex;
+  box-sizing: border-box;
+  // background-color: red;
+  height: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  .section1_leftSide {
+    @include flex-center;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .section1_rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    .section1_rightSide_div1 {
+      padding: 1rem;
+      border-radius: 1rem;
+      background-color: rgb(255, 255, 255);
+      color: #2b2b2c;
+      h2 {
+        font-size: 1.5rem;
+        button {
+          padding: 0.2rem 0.4rem 0.2rem 0rem;
+          background-color: white;
+          border: none;
+          border-bottom: 1px solid black;
+          cursor: pointer;
+          transition: all 0.3s;
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.landingPageSection2 {
+  border-radius: 0.5rem;
+  border: 1px solid greenyellow;
+  min-height: 50vh;
+  background: linear-gradient(-25deg, #2b2b2c 72%, aliceblue 100%);
+  border: 10px;
+  margin: 2rem 5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .landingPageSection1 {
+    display: block;
+    background-image: none;
+
+    .section1_leftSide {
+      width: 100%;
+    }
+    .section1_rightSide {
+      width: 100%;
+      align-items: center;
+      .section1_rightSide_div1 {
+        text-align: center;
+      }
+    }
+  }
+
+  .landingPageSection2 {
+    margin: 0 1rem 1rem;
+  }
+}

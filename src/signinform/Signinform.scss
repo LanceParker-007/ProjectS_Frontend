@@ -1,0 +1,76 @@
+.signInFormContainer{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://wallpapers.com/images/high/rent-a-girlfriend-chizuru-date-with-kazuya-8d29pax53hshua8p.webp");
+    background-size: cover;
+    background-position: center;
+    @media screen and (max-width: 500px){
+        background-image: url("https://wallpaperaccess.com/full/5680044.png");
+        background-position:bottom;
+    }
+}
+
+.signInFormBorder{
+    border-radius: 0.2rem;
+    border: 1px solid black;
+    box-shadow: 0 0 10px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.signInForm{
+    padding: 1rem;
+    width: 18rem;
+    
+}
+
+.formFirstHalf, .formSecondHalf{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    >button{
+        width: 100%;
+        margin: 0.5rem 0rem;
+        padding: 1rem 0.5rem;
+        cursor: pointer;
+        border: none;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 0.2rem;
+        transition: background-color 0.6s;
+    }
+}
+
+.formFirstHalf{
+    >input{
+        width: 100%;
+        padding: 0.4rem;
+        margin: 0.1rem 0rem;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    >button:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.formSecondHalf{
+    >button{
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    >button:hover{
+        background-color: rgb(222, 8, 8);
+    color: white;
+    }
+}

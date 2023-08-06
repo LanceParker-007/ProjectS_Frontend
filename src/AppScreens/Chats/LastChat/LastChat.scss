@@ -1,0 +1,41 @@
+.lastChat{
+    background-color: rgb(25,25,25);
+    color: aliceblue;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: rgb(20, 20, 20);
+    }
+}
+
+.lastChat_Img{
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >img{
+        border-radius: 100%;
+    }
+}
+
+.lastChat_details{
+    width: 75%;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >h4{
+        color: rgb(231, 229, 229);
+    }
+    >p{
+        color: rgb(145, 145, 145);     
+    }
+    
+}

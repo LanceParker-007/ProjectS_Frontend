@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Emma",
+        "age": 24,
+        "location": "City A",
+        "description": "I'm a fun and adventurous person who loves exploring new places.",
+        "interests": [
+            "traveling",
+            "reading",
+            "hiking"
+        ],
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "availability": {
+            "monday": "10:00 AM - 6:00 PM",
+            "tuesday": "2:00 PM - 10:00 PM",
+            "wednesday": "9:00 AM - 5:00 PM",
+            "thursday": "Unavailable",
+            "friday": "3:00 PM - 11:00 PM",
+            "saturday": "10:00 AM - 7:00 PM",
+            "sunday": "11:00 AM - 3:00 PM"
+        },
+        "price": 20,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/1.jpg",
+            "https://randomuser.me/api/portraits/women/1.jpg",
+            "https://randomuser.me/api/portraits/women/1.jpg"
+        ],
+        "rating": 1.5
+    },
+    {
+        "id": 2,
+        "name": "Olivia",
+        "age": 26,
+        "location": "City B",
+        "description": "I'm a friendly and outgoing person who enjoys good conversations.",
+        "interests": [
+            "movies",
+            "cooking",
+            "dancing"
+        ],
+        "languages": [
+            "English",
+            "French"
+        ],
+        "availability": {
+            "monday": "9:00 AM - 5:00 PM",
+            "tuesday": "10:00 AM - 6:00 PM",
+            "wednesday": "9:00 AM - 5:00 PM",
+            "thursday": "1:00 PM - 9:00 PM",
+            "friday": "10:00 AM - 6:00 PM",
+            "saturday": "Unavailable",
+            "sunday": "12:00 PM - 4:00 PM"
+        },
+        "price": 25,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/2.jpg",
+            "https://randomuser.me/api/portraits/women/2.jpg",
+            "https://randomuser.me/api/portraits/women/2.jpg"
+        ],
+        "rating": 2.5
+    },
+    {
+        "id": 3,
+        "name": "Sophia",
+        "age": 22,
+        "location": "City C",
+        "description": "I'm a creative and artistic person who loves painting and photography.",
+        "interests": [
+            "art",
+            "music",
+            "yoga"
+        ],
+        "languages": [
+            "English",
+            "German"
+        ],
+        "availability": {
+            "monday": "10:00 AM - 6:00 PM",
+            "tuesday": "9:00 AM - 5:00 PM",
+            "wednesday": "10:00 AM - 6:00 PM",
+            "thursday": "10:00 AM - 6:00 PM",
+            "friday": "9:00 AM - 5:00 PM",
+            "saturday": "10:00 AM - 7:00 PM",
+            "sunday": "Unavailable"
+        },
+        "price": 18,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/3.jpg",
+            "https://randomuser.me/api/portraits/women/3.jpg",
+            "https://randomuser.me/api/portraits/women/3.jpg"
+        ],
+        "rating": 3.5
+    },
+    {
+        "id": 4,
+        "name": "Sophie",
+        "age": 28,
+        "location": "City D",
+        "description": "I'm a social butterfly who enjoys meeting new people and trying new things.",
+        "interests": [
+            "shopping",
+            "cooking",
+            "yoga"
+        ],
+        "languages": [
+            "English",
+            "Italian"
+        ],
+        "availability": {
+            "monday": "1:00 PM - 9:00 PM",
+            "tuesday": "10:00 AM - 6:00 PM",
+            "wednesday": "9:00 AM - 5:00 PM",
+            "thursday": "11:00 AM - 7:00 PM",
+            "friday": "10:00 AM - 6:00 PM",
+            "saturday": "2:00 PM - 10:00 PM",
+            "sunday": "12:00 PM - 4:00 PM"
+        },
+        "price": 22,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/4.jpg",
+            "https://randomuser.me/api/portraits/women/4.jpg",
+            "https://randomuser.me/api/portraits/women/4.jpg"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Lily",
+        "age": 23,
+        "location": "City E",
+        "description": "I'm a free-spirited person who loves outdoor activities and exploring nature.",
+        "interests": [
+            "hiking",
+            "photography",
+            "music"
+        ],
+        "languages": [
+            "English",
+            "French"
+        ],
+        "availability": {
+            "monday": "10:00 AM - 6:00 PM",
+            "tuesday": "9:00 AM - 5:00 PM",
+            "wednesday": "10:00 AM - 6:00 PM",
+            "thursday": "Unavailable",
+            "friday": "9:00 AM - 5:00 PM",
+            "saturday": "10:00 AM - 7:00 PM",
+            "sunday": "11:00 AM - 3:00 PM"
+        },
+        "price": 19,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/5.jpg",
+            "https://randomuser.me/api/portraits/women/5.jpg",
+            "https://randomuser.me/api/portraits/women/5.jpg"
+        ],
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Chloe",
+        "age": 25,
+        "location": "City F",
+        "description": "I am a bookworm who loves spending time in libraries and coffee shops.",
+        "interests": [
+            "reading",
+            "writing",
+            "painting"
+        ],
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "availability": {
+            "monday": "9:00 AM - 5:00 PM",
+            "tuesday": "2:00 PM - 10:00 PM",
+            "wednesday": "9:00 AM - 5:00 PM",
+            "thursday": "1:00 PM - 9:00 PM",
+            "friday": "10:00 AM - 6:00 PM",
+            "saturday": "Unavailable",
+            "sunday": "12:00 PM - 4:00 PM"
+        },
+        "price": 21,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/6.jpg",
+            "https://randomuser.me/api/portraits/women/6.jpg",
+            "https://randomuser.me/api/portraits/women/6.jpg"
+        ],
+        "rating": 1
+    },
+    {
+        "id": 7,
+        "name": "Ava",
+        "age": 27,
+        "location": "City G",
+        "description": "I'm a fitness enthusiast who enjoys staying active and trying new workout routines.",
+        "interests": [
+            "fitness",
+            "sports",
+            "cooking"
+        ],
+        "languages": [
+            "English",
+            "German"
+        ],
+        "availability": {
+            "monday": "10:00 AM - 6:00 PM",
+            "tuesday": "9:00 AM - 5:00 PM",
+            "wednesday": "10:00 AM - 6:00 PM",
+            "thursday": "10:00 AM - 6:00 PM",
+            "friday": "9:00 AM - 5:00 PM",
+            "saturday": "10:00 AM - 7:00 PM",
+            "sunday": "Unavailable"
+        },
+        "price": 23,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/7.jpg",
+            "https://randomuser.me/api/portraits/women/7.jpg",
+            "https://randomuser.me/api/portraits/women/7.jpg"
+        ],
+        "rating": 2
+    },
+    {
+        "id": 8,
+        "name": "Harper",
+        "age": 29,
+        "location": "City H",
+        "description": "I'm a nature lover who enjoys hiking, camping, and exploring the great outdoors.",
+        "interests": [
+            "hiking",
+            "camping",
+            "photography"
+        ],
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "availability": {
+            "monday": "9:00 AM - 5:00 PM",
+            "tuesday": "10:00 AM - 6:00 PM",
+            "wednesday": "9:00 AM - 5:00 PM",
+            "thursday": "1:00 PM - 9:00 PM",
+            "friday": "10:00 AM - 6:00 PM",
+            "saturday": "Unavailable",
+            "sunday": "12:00 PM - 4:00 PM"
+        },
+        "price": 24,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/8.jpg",
+            "https://randomuser.me/api/portraits/women/8.jpg",
+            "https://randomuser.me/api/portraits/women/8.jpg"
+        ],
+        "rating": 3
+    },
+    {
+        "id": 9,
+        "name": "Isabella",
+        "age": 25,
+        "location": "City I",
+        "description": "I'm a creative soul who enjoys painting, drawing, and expressing myself through art.",
+        "interests": [
+            "art",
+            "music",
+            "travel"
+        ],
+        "languages": [
+            "English",
+            "French"
+        ],
+        "availability": {
+            "monday": "10:00 AM - 6:00 PM",
+            "tuesday": "9:00 AM - 5:00 PM",
+            "wednesday": "10:00 AM - 6:00 PM",
+            "thursday": "10:00 AM - 6:00 PM",
+            "friday": "9:00 AM - 5:00 PM",
+            "saturday": "Unavailable",
+            "sunday": "12:00 PM - 6:00 PM"
+        },
+        "price": 21,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/9.jpg",
+            "https://randomuser.me/api/portraits/women/9.jpg",
+            "https://randomuser.me/api/portraits/women/9.jpg"
+        ],
+        "rating": 4
+    },
+    {
+        "id": 10,
+        "name": "Sophia",
+        "age": 28,
+        "location": "City J",
+        "description": "I'm a food lover who enjoys cooking, baking, and exploring different cuisines.",
+        "interests": [
+            "cooking",
+            "food",
+            "travel"
+        ],
+        "languages": [
+            "English",
+            "Italian"
+        ],
+        "availability": {
+            "monday": "9:00 AM - 5:00 PM",
+            "tuesday": "1:00 PM - 9:00 PM",
+            "wednesday": "10:00 AM - 6:00 PM",
+            "thursday": "9:00 AM - 5:00 PM",
+            "friday": "10:00 AM - 6:00 PM",
+            "saturday": "11:00 AM - 7:00 PM",
+            "sunday": "12:00 PM - 4:00 PM"
+        },
+        "price": 25,
+        "photos": [
+            "https://randomuser.me/api/portraits/women/10.jpg",
+            "https://randomuser.me/api/portraits/women/10.jpg",
+            "https://randomuser.me/api/portraits/women/10.jpg"
+        ],
+        "rating": 5
+    }
+]

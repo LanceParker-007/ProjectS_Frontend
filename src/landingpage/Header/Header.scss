@@ -1,0 +1,56 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(25, 25, 25);
+  color: aliceblue;
+  height: 5rem;
+
+  .siteLogo {
+    @include flex-center;
+    width: 50%;
+    padding: 1rem;
+    > a {
+      text-decoration: none;
+      color: aliceblue;
+      font-size: 1.5rem;
+    }
+  }
+
+  .landingPageNavigationLinks {
+    @include flex-center;
+    width: 50%;
+    justify-content: flex-end;
+    > a {
+      @include flex-center;
+      justify-content: center;
+      width: 5.2rem;
+      padding: 0.5rem 0.2rem;
+      text-decoration: none;
+      color: white;
+      transition: background-color 0.5s;
+      border-bottom: 1px solid whitesmoke;
+      margin-right: 0.2rem;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    .siteLogo {
+      > a {
+        font-size: 1rem;
+      }
+    }
+  }
+}

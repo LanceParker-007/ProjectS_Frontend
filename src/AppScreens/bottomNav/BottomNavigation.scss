@@ -1,0 +1,26 @@
+.bottomNavigationContainer {
+  margin-top: 3rem;
+  width: 100%;
+  height: 10vh;
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  padding: 1rem;
+  > a {
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    &:hover {
+      color: rgb(201, 196, 196);
+      scale: 1.1;
+    }
+  }
+}
