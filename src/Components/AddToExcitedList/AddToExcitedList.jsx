@@ -69,20 +69,11 @@ const AddToWaitingList = () => {
 
   return (
     <>
-      <Button
-        variant={"solid"}
-        colorScheme={"blue"}
-        fontSize={"2xl"}
-        onClick={onOpen}
-        width={"22rem"}
-        height={"5rem"}
-        padding={0.1}
-      >
-        Join the excited people list!
-        <br />
-        100+ excited as you are ✌
-      </Button>
-
+      <Tooltip label={`Join the 100+ people`} hasArrow placement="top">
+        <Button variant={"solid"} colorScheme={"blue"} onClick={onOpen}>
+          Click here
+        </Button>
+      </Tooltip>
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
         <ModalContent>
@@ -92,7 +83,7 @@ const AddToWaitingList = () => {
             justifyContent={"center"}
           >
             <Tooltip label={"I am also excited"} placement={"top-end"} hasArrow>
-              <Heading fontFamily={"body"}>Excited 😁</Heading>
+              <Heading fontFamily={"body"}>Join the Journey</Heading>
             </Tooltip>
           </ModalHeader>
           <ModalCloseButton />
@@ -125,7 +116,7 @@ const AddToWaitingList = () => {
                 <FormLabel htmlFor="email" children="Your Email Address" />
                 <Tooltip
                   hasArrow
-                  label={"So that we can notify you"}
+                  label={"So that we can notify you for future updates"}
                   placement={"bottom-start"}
                 >
                   <Input
@@ -146,7 +137,7 @@ const AddToWaitingList = () => {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="I am also excited as you are! If you have any message or query, please do let me know 😄"
+                  placeholder="I am also very interested and excited as you are! If you have any message or query, please do let me know 😄"
                   focusBorderColor="yellow.500"
                 />
               </Box>
