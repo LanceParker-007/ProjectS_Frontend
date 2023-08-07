@@ -69,7 +69,7 @@ const AddToWaitingList = () => {
 
   return (
     <>
-      <Tooltip label={`Join the 100+ people`} hasArrow placement="top">
+      <Tooltip label={`To get future updates`} hasArrow placement="top">
         <Button variant={"solid"} colorScheme={"blue"} onClick={onOpen}>
           Click here
         </Button>
@@ -83,7 +83,7 @@ const AddToWaitingList = () => {
             justifyContent={"center"}
           >
             <Tooltip label={"I am also excited"} placement={"top-end"} hasArrow>
-              <Heading fontFamily={"body"}>Join the Journey</Heading>
+              <Heading fontFamily={"body"}>You'll get you a GF</Heading>
             </Tooltip>
           </ModalHeader>
           <ModalCloseButton />
