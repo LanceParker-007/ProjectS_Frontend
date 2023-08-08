@@ -137,7 +137,7 @@ const AddToWaitingList = () => {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="I am also very interested and excited as you are! If you have any message or query, please do let me know 😄"
+                  placeholder="I am very excited! `If you have any message or query, please do let me know 😄"
                   focusBorderColor="yellow.500"
                 />
               </Box>
