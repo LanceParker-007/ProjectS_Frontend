@@ -83,7 +83,7 @@ const AddToWaitingList = () => {
             justifyContent={"center"}
           >
             <Tooltip label={"I am also excited"} placement={"top-end"} hasArrow>
-              <Heading fontFamily={"body"}>You'll get you a GF</Heading>
+              <Heading fontFamily={"body"}>I'll get you a GF</Heading>
             </Tooltip>
           </ModalHeader>
           <ModalCloseButton />
