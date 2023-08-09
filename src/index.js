@@ -4,7 +4,7 @@ import App from "./App";
 import { ChakraProvider, theme, ColorModeScript } from "@chakra-ui/react";
 
 export const DEV_server = `http://localhost:5000/api/v1`;
-export const PROD_server = `https://projects-backend-tv2z.onrender.com/api/v1`;
+export const PROD_server = `https://project-s-backend.vercel.app/api/v1`;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
