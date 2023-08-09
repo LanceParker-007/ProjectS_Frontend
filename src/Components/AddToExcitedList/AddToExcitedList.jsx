@@ -46,8 +46,7 @@ const AddToWaitingList = () => {
 
       setLoading(false);
       toast({
-        title: `Thank you very much ${name}`,
-        description: "for showing sharing your excitement",
+        title: `Thanks ${name}`,
         status: "success",
         duration: 5000,
         isClosable: true,
